@@ -1,6 +1,6 @@
 
-import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { useState} from 'react';
+import {Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { TokenInfo, useSolana } from '@/context/SolanaProvider';
 import { Copy, RefreshCw, Send } from 'lucide-react';
 import { Button } from './ui/button';
