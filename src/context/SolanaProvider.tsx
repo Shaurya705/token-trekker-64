@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { ConnectionProvider, WalletProvider, useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -7,7 +6,7 @@ import {
   SolflareWalletAdapter,
   TorusWalletAdapter,
   LedgerWalletAdapter,
-  SlopeWalletAdapter,
+  CloverWalletAdapter,
 } from '@solana/wallet-adapter-wallets';
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl, Connection, LAMPORTS_PER_SOL, PublicKey } from '@solana/web3.js';
@@ -369,7 +368,7 @@ export const SolanaProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       new SolflareWalletAdapter(),
       new TorusWalletAdapter(),
       new LedgerWalletAdapter(),
-      new SlopeWalletAdapter(),
+      new CloverWalletAdapter(),
     ],
     [network]
   );
