@@ -4,8 +4,8 @@ import { useSolana } from '@/context/SolanaProvider';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Search, Coins, TrendingUp, Sparkles } from 'lucide-react';
 import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { Button} from '@/components/ui/button';
+import { useWallet} from '@solana/wallet-adapter-react';
 
 const popularTokens = [
   { symbol: 'SOL', name: 'Solana', price: '$150.23', change: '+5.2%', volume: '$1.2B' },
