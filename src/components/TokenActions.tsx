@@ -1,6 +1,6 @@
 
-import { useSolana } from '@/context/SolanaProvider';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
+import { useSolana} from '@/context/SolanaProvider';
+import { Tabs, TabsContent, TabsList, TabsTrigger} from './ui/tabs';
 import CreateTokenForm from './CreateTokenForm';
 import SendSolForm from './SendSolForm';
 import { useWallet } from '@solana/wallet-adapter-react';
