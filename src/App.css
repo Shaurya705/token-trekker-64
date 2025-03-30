@@ -4,7 +4,7 @@
   min-height: 100vh;
   padding: 0;
   text-align: left;
-  background: linear-gradient(to bottom, #13151C, #20232F);
+  background: white;
 }
 
 /* Wallet adapter custom styling */
@@ -32,22 +32,22 @@
 }
 
 .wallet-adapter-modal-wrapper {
-  background: #1a1b25 !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  background: white !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
   border-radius: 1rem !important;
 }
 
 .wallet-adapter-modal-button-close {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
 }
 
 .wallet-adapter-modal-title {
-  color: white !important;
+  color: #1a1b25 !important;
   font-family: 'Inter', sans-serif !important;
 }
 
 .wallet-adapter-modal-content {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
@@ -59,9 +59,9 @@
   font-weight: 500 !important;
   border-radius: 0.5rem !important;
   margin-bottom: 0.5rem !important;
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
 }
 
 .wallet-adapter-modal-list .wallet-adapter-button:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
 }
