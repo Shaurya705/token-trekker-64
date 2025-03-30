@@ -41,13 +41,13 @@
     @apply border-border;
   }
 
-  body {
+  body{
     @apply bg-background text-foreground antialiased;
     font-family: 'Inter', sans-serif;
   }
 }
 
-@layer components {
+@layer components{
   .glass-card {
     @apply bg-white/90 backdrop-blur-md border border-gray-200 shadow-md;
   }
