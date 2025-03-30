@@ -28,7 +28,7 @@ const ConnectWallet = () => {
   };
   
   return (
-    <div className="flex flex-col gap-4 md:items-center md:flex-row md:justify-between w-full">
+    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between w-full">
       <div>
         {publicKey ? (
           <div className="flex flex-col space-y-2">
