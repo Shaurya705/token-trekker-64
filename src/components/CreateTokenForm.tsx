@@ -1,6 +1,6 @@
 
-import { useState } from 'react';
-import { useSolana } from '@/context/SolanaProvider';
+import { useState} from 'react';
+import { useSolana} from '@/context/SolanaProvider';
 import { 
   Card, 
   CardContent, 
