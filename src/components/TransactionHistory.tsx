@@ -1,5 +1,5 @@
 
-import { useSolana, Transaction } from '@/context/SolanaProvider';
+import { useSolana, Transaction} from '@/context/SolanaProvider';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { ArrowDownLeft, ArrowUpRight, Clock, Coins, Sparkles } from 'lucide-react';
 import { Badge } from './ui/badge';
