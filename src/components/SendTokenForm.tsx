@@ -1,6 +1,6 @@
 
-import { useState } from 'react';
-import { TokenInfo, useSolana } from '@/context/SolanaProvider';
+import { useState} from 'react';
+import { TokenInfo, useSolana} from '@/context/SolanaProvider';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { X } from 'lucide-react';
